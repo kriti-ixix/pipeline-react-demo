@@ -7,11 +7,11 @@ import { useState } from "react";
 
 function App() {
   const [count, setCount] = useState(0);
-
+ 
   return (
     <>
       <div className="box">
-        <h3>Counter</h3>
+        <h3>Score</h3>
         <br />
         <div>
           <h1>{count}</h1>
